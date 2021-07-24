@@ -111,7 +111,7 @@ function delete($database, $tableName, string $userID) {
                 Name:
             </td>
             <td>
-                <input type="text" maxlength="20" name="name"/>
+                <input type="text" required maxlength="20" name="name"/>
             </td>
         </tr>
         <tr>
@@ -119,7 +119,7 @@ function delete($database, $tableName, string $userID) {
                 Roll:
             </td>
             <td>
-                <input type="text" maxlength="20" name="roll"/>
+                <input type="text" required minlength="6" maxlength="6" name="roll"/>
             </td>
         </tr>
         <tr>
